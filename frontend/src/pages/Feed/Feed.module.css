@@ -1,0 +1,220 @@
+.flex {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1); 
+    min-height: 1000px;
+    /* height: 100vh; */
+}
+body::-webkit-scrollbar {
+    width: 10px
+} 
+
+.parent{
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+.child {
+    height: 150px;   
+    width: 318px;
+    overflow-y: scroll;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: #0A5773;
+border-radius: 5%;
+}
+
+/*  -------------------------------------    Estrutura Esquerda   ------------------------------------- */
+
+.estruturaEsquerda{
+    width: 15rem;
+    display: grid;
+    text-align: -webkit-center;
+    background: #2596BE;  
+    position: fixed;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.mapa{
+    margin-bottom: 20px;
+}
+
+
+
+.navFeed{
+    height: 90px;
+}
+
+.noticias  {
+    overflow-y: scroll;
+    
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color:#0A5773;
+    border-radius: 20px;
+    border: 4px solid white;
+  }
+
+/*  -------------------------------------    Estrutura Central   ------------------------------------- */
+
+.estruturaCentral{
+    width: 100%;
+}
+
+.headerFeed {
+    text-align: -webkit-center;
+    margin: 25px 5.9rem 0 12rem;
+    transition: 0.5s;
+}
+
+.barraPesquisa {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+    background-color: #5CB0CE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: none;
+    border-radius: 2rem;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2;
+    transition: 0.2s all;
+}
+
+.sectionFeed {
+    width: 100%;
+    margin-top: 3vh;
+    border-radius: 15%;
+
+}
+
+.divPublicacoes {
+    display: flex;
+    margin-left: 12rem;
+    margin-right: 5.9rem;
+    text-align: -webkit-center;
+    transition: 0.5s;
+}
+
+/*  -------------------------------------    Estrutura Direita   ------------------------------------- */
+
+.estruturaDireita {
+    background: #2596BE;   
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    right: 0;
+}
+
+.imgAside {
+    width: 4.5rem;
+    padding: 0.7rem
+}
+
+.links{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 90%;
+    min-height: max-content;
+}
+
+.links>*:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.links :nth-child(3){
+    margin-bottom: 1rem;
+}
+
+.logout{
+    height: min-content;
+    margin-bottom: 10px;
+}
+
+/*  -----------------------------------------   Responsividade   ----------------------------------------- */
+
+@media only screen and (max-width:790px){
+
+    .estruturaEsquerda{
+        display: none;
+    }
+
+
+
+    .headerFeed {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        transition: 0.5s;
+    }
+
+    .barraPesquisa{
+        margin-top: 90px;
+        width: 85%;
+    }
+    
+    .divPublicacoes {
+        margin-left: 0;
+        margin-right: 0;
+        transition: 0.5s;
+    }
+
+    .sectionFeed {
+        margin-top: 5vh;
+    }
+
+
+
+
+    .estruturaDireita {
+        background: linear-gradient(252.46deg, #1ED6D6,  #0A5773 );  
+        flex-direction: unset;
+        display: flex;
+        width: 100%;
+        height: 70px;
+    }
+
+    .imgAside{
+        width: 60px;
+    }
+
+    .links{
+        display: block;
+        width: 90%;
+    }
+
+    .links img{
+        width: 40px;
+        margin-left: 20px;
+        margin-top: 0;
+    }
+
+    .logout{
+        margin-right: 10px;
+    }
+
+    .logout img{
+        width: 40px;
+    }
+    
+}

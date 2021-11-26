@@ -1,0 +1,15 @@
+.corpo{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: url("../../assets/images/notFound.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #2596BE ;
+}
+
+.info{
+  width: 45%;
+  text-align: center;
+  min-width: 450px;
+}

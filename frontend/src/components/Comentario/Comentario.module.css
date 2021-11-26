@@ -1,0 +1,29 @@
+.corpoComent {
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+}
+
+.imgPerfil{
+    max-width: 3.6rem;
+}
+
+.corpoComent>*:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.coment {
+    display: flex;
+    flex-direction: column;
+    max-width: 17rem;
+    word-wrap: break-word;
+}
+
+.coment>*:not(:first-child) {
+    margin-top: 0.4rem;
+}
+
+.footerComents>*:not(:first-child) {
+    margin-left: 5rem;
+}

@@ -1,0 +1,79 @@
+.linkContato{
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #2596BE;
+    background-repeat: no-repeat;
+
+
+    height: 10rem;
+    width: 10rem;
+    margin: 3rem;
+
+    transition: 0.5s;
+}
+
+.linkContato:hover{
+    background: #1c81a5;
+    box-shadow: 3px 3px 10px rgb(134, 134, 134);
+    transition: 0.2s;
+}
+
+.linkCadastro{
+    width: 3.1rem;
+    height: 3.1rem;
+    margin: 0;
+
+    border-radius: 12%;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 3px solid #FFFFFF;
+    
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+
+.linkLogin{
+    width: 13rem;
+    height: 3.1rem;
+    margin: 0;
+
+    color: #000;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 3px solid #2596BE;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.linkBranco{
+    background-color: #FFFFFF;
+    color: #2596BE;
+    border-radius: 6px;
+    width: 10rem;
+    height: 3.5rem; 
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .linkContato{
+        height: 5.8rem;
+        width: 5.8rem;
+        margin: 2rem;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width: 570px) {
+    .linkContato{
+        height: 4.4rem;
+        width: 4.4rem;
+        margin: 0.5rem;
+        transition: 0.5s;
+    }
+}

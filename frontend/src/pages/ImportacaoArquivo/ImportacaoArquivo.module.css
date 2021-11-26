@@ -1,0 +1,45 @@
+.corpo{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-image: url("../../assets/images/undraw_Update.svg");
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position: right;
+  background-color: #2596BE ;
+}
+
+.info{
+  margin-top: 100px;
+  color: white;
+  width: 45%;
+  text-align: center;
+  min-width: 450px;
+}
+
+.info h3{
+  color: white !important;
+}
+
+/* input[type="file"]{
+  background-color: blueviolet;
+} */
+
+.volta{
+  bottom: -15px;
+}
+
+.fileChooser{
+  color: white;
+  display: block !important;
+  margin: 10px auto;
+}
+
+.button{
+  margin-top: 50px;
+}
+
+/* input[type="file"] {
+  background-color: yellow;
+  color: blueviolet;
+} */

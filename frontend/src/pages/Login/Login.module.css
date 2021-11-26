@@ -1,0 +1,204 @@
+.container{
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(107.54deg, #0a5773 0%, #2596be 100%) !important; 
+    transition: 0.5s;
+}
+
+.logo{
+    position: absolute;
+    padding: 1.5rem;
+}
+
+.divLogin{ 
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #FFFFFF;
+    border-radius: 3%;
+    transition: 0.5s;
+}
+
+.linksRedes{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.linksRedes > *:not(:first-child) {
+    margin-left: 2rem;
+}
+
+.separador{
+    color: rgb(23, 125, 161);
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.separador > *:not(:first-child) {
+    margin-left: 1rem;
+}
+
+.bara1{
+    background-color: #136c8c;
+    width: 42%;
+    height: 0.5vh;
+    margin-top: 1vh;
+}
+
+.formLogin{
+    margin-top: 1.2rem;
+    margin-left: 1.5rem;
+}
+
+.formLogin > *:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.labelLogin{
+    color: #000000;
+    font-size: 1.3rem;
+    font-weight: bold
+}
+
+.buttonLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 1rem;
+
+    color: #FFFFFF;
+}
+
+.buttonLogin > *:not(:first-child) {
+    margin-top: 1.0rem;
+    margin-bottom: 2%;
+}
+
+.buttonLogin b{
+    color: #000000;
+}
+
+.linkLogin{
+    color: #2596BE;
+    text-decoration: none;
+    margin-left: 0.5rem;
+    font-weight: bold
+}
+
+.infoCheck{
+    color: #FFFFFF;
+    margin-top: 1.7rem;
+    text-align: center;
+    transition: 0.5s;   
+}
+
+.senhaEsquecida{
+    margin: 14px 0 10px 0;
+    text-align: center;
+    color: rgb(36, 36, 36);
+}
+
+.voltar:nth-child(1){
+    width: 60px;
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    transition: 0.5s;
+}
+
+.voltar:nth-child(2){
+    width: 60px;
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    transition: 0.5s;
+    display: none;
+}
+
+@media only screen and (max-width:1100px) {
+
+    .divLogin{ 
+        width: 60%;
+        transition: 0.5s;
+    }
+    
+}
+
+@media only screen and (max-width:800px) {
+
+    .divLogin{ 
+        width: 80%;
+        transition: 0.5s;
+    }
+
+    .voltar:nth-child(1){
+        display: none;
+    }
+    
+    .voltar:nth-child(2){
+        width: 50px;
+        height: 60px;
+        left: 6px;
+        top: 10px;
+        transition: 0.5s;
+        display: block;
+    }
+    
+}
+
+@media only screen and (max-width:560px) {
+
+    .divLogin{ 
+        width: 100%;
+        height: 100%;
+        border-radius: unset;
+        transition: 0.5s;
+    }
+
+    .linksRedes{
+        display: grid;
+        margin-top: 30px;
+    }
+
+    .linksRedes > *:not(:first-child) {
+        margin-left: 0px;
+    }
+    
+
+    .links{
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .labelLogin{
+        margin-bottom: 10px;
+    }
+
+    .formLogin{
+        display: grid;
+    }
+
+    
+    .infoCheck{
+        display: none;
+        transition: 0.5s;   
+    }
+
+    .container{
+        min-height: 1vh;
+        transition: 0.5s;   
+    }
+}
+

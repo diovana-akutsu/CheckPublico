@@ -1,0 +1,119 @@
+.display{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1); 
+    /* min-height: 800px; */
+    /* height: 100vh; */
+}
+
+/*  -------------------------------------    Estrutura 1   ------------------------------------- */
+
+.estrutura1 {
+    background: linear-gradient(to bottom, #0A5773,  #1ED6D6 );      
+    position: fixed;
+    width: min-content;
+    display: grid;
+    height: min-content;
+}
+
+.estrutura1 img {
+    justify-self: center;
+}
+
+hr{
+    margin: 10px;
+} 
+
+.estrutura1 h5 {
+    font-size: xx-large;
+    margin: 15px;
+}
+
+.opcoes{
+    display: grid;
+}
+
+.opcoes div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.opcoes input {
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.opcoes label {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+/*  -------------------------------------    Estrutura 2   ------------------------------------- */
+
+.estrutura2 {
+    margin: 6rem 5.9rem 0 14rem;
+    width: 100%;
+    text-align: -webkit-center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*  -------------------------------------    Estrutura Direita   ------------------------------------- */
+
+.estruturaDireita {
+    background: linear-gradient(252.46deg, #0A5773,  #1ED6D6 );   
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 100%;
+    right: 0;
+}
+
+.imgAside {
+    width: 4.5rem;
+    padding: 0.7rem
+}
+
+.links{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    height: 90%;
+    min-height: max-content;
+}
+
+.links>*:not(:first-child) {
+    margin-top: 1.5rem;
+}
+
+.links :nth-child(3){
+    margin-bottom: 1rem;
+}
+
+.logout{
+    height: min-content;
+    margin-bottom: 10px;
+}
+
+.avisoNaoEncontrado{
+    max-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divGenerica{
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.checked{
+    border: 3px solid white !important;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 6px 2px 30px 10px #FFFFFF; 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 6px 2px 30px 10px #FFFFFF;
+    
+}

@@ -1,0 +1,68 @@
+    00Interacoes25-05-2021 13:21:1201
+01001Diogo Ivan                    diogoivan@gmail.com                               $2a$10$6tAk4fxTPXglkWG223J8H.Xyhme/Rw.9iRQiYHRg4B3CY4S/tbvwW
+02020denuncia  0001008Testes sonim demais                                                                                 
+02021denuncia  0001008Testes sonim demais                                                                                 
+02022denuncia  0001008Testes sonim demais                                                                                 
+02023denuncia  0001008Testes sonim demais                                                                                 
+02024denuncia  0001008Testes sonim demais                                                                                 
+02025denuncia  0001008Testes sonim demais                                                                                 
+02026denuncia  0001008Testes sonim demais                                                                                 
+02027denuncia  0001008Testes sonim demais                                                                                 
+02028denuncia  0001008Testes sonim demais                                                                                 
+02029denuncia  0001008Testes sonim demais                                                                                 
+02030denuncia  0001008Testes sonim demais                                                                                 
+02031denuncia  0001008Testes sonim demais                                                                                 
+02032denuncia  0001008Testes sonim demais                                                                                 
+02001Comentario1001001primeiro a comentar                                                                                 
+02013like      1001006null                                                                                                
+01002Rafael Ciebra                 rafaelciebra@gmail.com                            $2a$10$2kbXULPdK8EO.bQ2sMkSreyxS38Lr8kNed6HpXWC2GaBSBp9fAWkq
+01003Rafael dos Santos             rafael.santos@bandtec.com.br                      $2a$10$uUUBhvboLCrTOErjGF.WjO7pEF0JWnydLbHr1HlKjGnoXB6lGJF1W
+02014denuncia  0003015publicação inapropriada para o site!                                                                
+02015denuncia  0003015publicação inapropriada para o site!                                                                
+02016denuncia  0003015publicação inapropriada para o site!                                                                
+02017denuncia  0003015publicação inapropriada para o site!                                                                
+02018denuncia  0003015publicação inapropriada para o site!                                                                
+02019denuncia  0003008Testes sonim demais                                                                                 
+02012comentario0003006Né, preciso dessa obra urgente                                                                      
+02002denuncia  0003001achei ofensivo                                                                                      
+02005like      1003006null                                                                                                
+02006like      1003006null                                                                                                
+02035comentario0003018Saudades dela                                                                                       
+02036comentario0003018teste de criação de comentarios                                                                     
+02037comentario0003018Teste de envio de comentario                                                                        
+02038comentario0003018Teste de envio de comentario                                                                        
+02039comentario0003018teste                                                                                               
+02040comentario0003019Saudades dela                                                                                       
+02041comentario0003019Saudades dela                                                                                       
+02042comentario0003019Saudades dela                                                                                       
+02043comentario0003021testes aaaaaa hmmmm                                                                                 
+02044comentario0003021teste                                                                                               
+02045comentario0003021teste                                                                                               
+02046comentario0003021testes                                                                                              
+02047comentario0003021teste final                                                                                         
+02048comentario0003021teste final                                                                                         
+02052like      1003012null                                                                                                
+02055like      1003021null                                                                                                
+02056comentario0003021TEstes BLABLA                                                                                       
+02057like      1003015null                                                                                                
+01004Diovana Kraml                 diovana.akutsu@bandtec.com.br                     diovana8470                                                 
+02007like      1004006null                                                                                                
+02008like      1004006null                                                                                                
+02009comentario0004006Essa obra não saiii nunca                                                                           
+02010denuncia  0004006Essa obra é inadequada                                                                              
+02011denuncia  0004006                                                                                                    
+01005Nicole Gregório               nicolegregorio@gmail.com                          nicoleakokfha349                                            
+01006Vinicius Turquetti            viniciusturquettti@gmail.com                      vini@tbh8908                                                
+01007teste                         teste@gmail.com                                   teste                                                       
+01008Teste de Validação dos campos teste@validacao.com                               12345abcd                                                   
+01009Michele Calazans              michele.calazans@bandtec.com.br                   $2a$10$mWA0kOej1lEmB1InYRJVBe0.YyThdcSmzjx97lrTGJwtNHNDioF1i
+01010Rafael dos Santos             rafael30s@hotmail.com.br                          $2a$10$qB7bruAy1c8B1AZr2zSFZOMsMbAE.wY9xyGGOBug0bL3H5SZfxR6.
+01011Rafael dos Santos             teste12@teste.com                                 $2a$10$xppkB/HYwPO0ZFlTAnZhDOfKxViRW3KdfEAjfVZjt34deYd8AtvAa
+01012Rafael dos Santos             teste120000@teste.com                             $2a$10$vfSn3Fi8xKofS.I.WEFO0.D812j2nQ1YNvjbFHbJDm1xPoibEjpsW
+01013Rafael dos Santos             gustavo@bandtec.com.br                            123456                                                      
+01014testeaaaaaaaa                 testes123@bandtec.com.br                          123456                                                      
+01015Rafael dos Santos             testepai@bandtec.com.br                           123456                                                      
+01016Rafael dos Santos             rafaelteste@hotmail.com.br                        123456                                                      
+01017Rafael dos Santos             rafaelteste@hotmail.com.br                        123456                                                      
+01018teste Rafael Santos           abc@bandtec.com.br                                $2a$10$/jFbT96Kv0Fbo9NB5IAK1.bXol/jPkQeGzkjDl3CwY0ocGHD1l1Tm
+0300066

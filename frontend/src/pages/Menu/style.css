@@ -1,0 +1,188 @@
+/* .main{
+    background-color: #FFFFFF;
+    height: 285vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0%;
+    position: absolute;
+} */
+
+/* COMEÇA MENU PRINCIPAL */
+/* .menu{
+    height: 85vh;
+    width: 100%;
+    margin: 0%;
+    position: absolute;
+}
+
+.img-menu{
+    width: 49%;
+    height: 76vh;
+    margin-top: 3%;
+    float: left;
+}
+
+.cabecalho{
+    margin-left: 52%;
+    margin-top: 8%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    width: 580px;
+    height: 120px;
+
+    font-size: 30px;
+    align-items: center;
+
+    color: #000000;
+}
+
+h2{
+    width: 550px;
+    height: 110px;
+
+    font-size: 32px;
+
+    align-items: center;
+
+    color: #000000;
+}
+
+.crie-conta-menu{
+    width: 220px;
+    height: 110px;
+    margin-top: 9%;
+
+    background: #2596BE;
+    border-radius: 5px;
+
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+}
+
+.acesse-conta-menu{
+    width: 220px;
+    height: 110px;
+    margin-top: 9%;
+    margin-left: 19%;
+
+    background: rgba(37, 150, 190, 0.5);
+    border: 3px solid #2596BE;
+    box-sizing: border-box;
+    border-radius: 5px;
+
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #FFFFFF;
+} */
+
+/* TERMINA MENU PRINCIPAL */
+
+/* COMEÇA FAÇA SUA CONTA */
+
+/* .faca-parte{
+    background-color: #2596BE;
+
+    height: 100vh;
+    width: 100%;
+    margin-top: 85vh;
+    position: absolute;
+}
+
+.h1-juntese{
+    width: 80%;
+    height: 55px;
+    margin-left: 4%;
+    margin-top: 3%;
+
+    font-size: 48px;
+    align-items: center;
+
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.div-faca-parte{
+    width: 100%;
+    margin-top: 2%;
+
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.img-faca-parte img{
+    width: 30%;
+    height: 20%;
+    margin-left: 2%;
+}
+
+.img-faca-parte1{
+    margin-left: 0%;
+}
+
+.crie-conta-faca-parte{
+    width: 220px;
+    height: 110px;
+    margin-left: 42.5%;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #2596BE;
+} */
+
+/* TERMINA FAÇA SUA CONTA */
+
+/* COMEÇA DADOS DA OBRAS ESTATAIS */
+
+/* .dados-obras{
+    height: 100vh;
+    width: 100%;
+    margin-top: 185vh;
+    position: absolute;
+}
+
+.dados{
+    width: 50%;
+    float: left;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.valor-obras{
+    width: 90%;
+    margin-top: 15%;
+    margin-left: 8%;
+}
+
+.texto-dados{
+    margin-top: 5%;
+    margin-left: 11%;
+    font-size: 40px;
+}
+
+.img-dash{
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 40%;
+} */
+
+/* TERMINA DADOS DA OBRAS ESTATAIS */

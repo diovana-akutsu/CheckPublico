@@ -1,0 +1,44 @@
+ 01  1.0 VERÇÃO  OBRAS 20-03-2021 00:36:22
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 20-03-2021 00:40:06
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 20-03-2021 00:43:48
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 20-03-2021 00:45:30
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 19:56:53
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 20:08:44
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 20:11:59
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 20:14:12
+030000000000 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 20:24:49
+030000000000 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 22:23:01
+030000000000 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 22:25:28
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 22:34:01
+030000000000 CONTAGEM DE DADOS 
+ 01  1.0 VERÇÃO  OBRAS 22-03-2021 22:34:14
+     NOME                          CEP 
+ 02 hospital São Francisco        02820020            
+030000000001 CONTAGEM DE DADOS 

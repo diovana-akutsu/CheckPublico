@@ -1,0 +1,134 @@
+body {
+    margin: 0;
+    /* Tira a borda da tela */
+}
+
+.tirarDuvida {
+    background-color: #19627c;
+    height: 370px;
+    text-align: -webkit-center;
+}
+
+.tirarDuvida h1 {
+    max-width: min-content;
+    min-width: max-content;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin: 0;
+    padding: 5% 0% 5px 0%;
+    border-bottom: white solid 3px;
+}
+
+.tirarDuvida input {
+    border: 0;
+    margin-top: 70px;
+    border-radius: 5px;
+    width: 75%;
+    height: 40px;
+    font-size: large;
+}
+
+
+/* Parte onde Mostra as opções de informações */
+
+.infos {
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    justify-content: space-evenly;
+}
+
+.infos div {
+    background-color: #29a6d3;
+    width: 22%;
+    height: 55vh;
+    position: relative;
+    border-radius: 10px;
+}
+
+.infos img {
+    margin: 20px 0px 20px 5%;
+    width: 90%;
+    height: 100px;
+}
+
+.infos p {
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.4) 2px 2px 5px;
+    margin-left: 8%;
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+/* Parte para entrar em contato */
+
+.entrarContato {
+    background-color: #19627c;
+    text-align: -webkit-center;
+}
+
+.entrarContato h1 {
+    max-width: min-content;
+    min-width: max-content;
+    color: white;
+    text-align: center;
+    /* font-size: xx-large; */
+    margin: 0;
+    padding: 5% 0% 5px 0%;
+    border-bottom: white solid 3px;
+    font-size: 2rem;
+}
+
+.componentePai {
+    color: white;
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    place-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+}
+
+.ComponenteAssistente {
+    width: 28%;
+}
+
+.ComponenteAssistente h2 {
+    margin-top: 2%;
+    font-size: xx-large;
+}
+
+.ComponenteAssistente button {
+    background-color: white;
+    color: #29a6d3;
+    border-radius: 10px;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    font-size: large;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.Componentes {
+    width: 25%;
+}
+
+.Componentes h2 {
+    margin-top: 2%;
+    font-size: xx-large;
+}
+
+.Componentes button {
+    background-color: white;
+    color: #29a6d3;
+    border-radius: 10px;
+    border: 0;
+    width: 80%;
+    height: 40px;
+    font-size: large;
+    margin-bottom: 30px;
+    cursor: pointer;
+}

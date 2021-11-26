@@ -1,0 +1,264 @@
+.pageCompartilhar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1); 
+    /* min-height: 700px; */
+    /* height: 100vh; */
+}
+
+.pageCompartilhar label{
+    font-size: 1.4rem;
+    margin-left: 2%;
+}
+
+.nomeFiltro label{
+    margin-top: 25px;
+}
+
+.combobox{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid #2596BE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2;
+    transition: 0.2s all;
+    display: inline-block;
+    width: 93%;
+    margin-left: 2%;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.inputPesquisa{
+
+	padding-left:23px;     /* Largura da imagem possui 20px */
+	padding-top:5px;       /* Só pra centralizar o texto verticalmente já que a altura da imagem é de 25px */
+
+	height:200px;                                         
+	/* background-image: url("../../assets/images/imagem.svg"); */
+	background-repeat:no-repeat;      
+    background-size: contain;               
+}
+
+.sectionConteudo{
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: -webkit-center;
+    place-self: center;
+}
+
+.imgConteudo{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputImgCompart{
+    background-color: #EDEDED;
+    width: 29rem;
+}
+
+.inputImg{
+    width: 29rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EDEDED;
+}
+
+.inputImg:hover{
+    cursor: pointer;
+}
+
+.asideDropzone{
+    display: none;
+}
+
+.descricacaoConteudo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.descricacaoConteudo label{
+    align-self: start;
+    margin: 20px 0 0 13%;
+}
+
+.inputConteudo{
+    background-color: white;
+    width: 75%;
+    height: 14rem;
+}
+
+.sectionFiltro{
+    width: 50%;
+    align-items: center;
+    border-left: solid #2596be;
+    margin-top: 10px;
+}
+
+.sectionFiltro input{
+    background-color: white;
+    width: 90%;
+    margin-bottom: 35px;
+    margin-left: 2%;
+}
+
+.sectionFiltro label{
+    margin-left: 2%;
+}
+
+.nomeFiltro{
+    display: flex;
+    flex-direction: column;
+}
+.doisValores{
+    display: flex;
+}
+
+.doisValores input{
+    margin-left: 5%;
+    width: 80%;
+}
+
+.doisValores label{
+    margin-left: 5%;
+}
+
+.localFiltro{
+    display: flex;
+    flex-direction: column;
+}
+.valorFiltro{
+    display: flex;
+    flex-direction: column;
+}
+.dataFiltro{
+    display: flex;
+    justify-content: center;
+}
+
+.dataIncFiltro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.dataFimFiltro{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    transition: 0.5s;
+}
+
+.buttonPublicar{
+    width: 100%;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+
+
+/* ------------------------------  mostra imagem do input ---------------------------------- */
+
+.imgConteudo{
+    width: 75%;
+    height: 14rem;
+    background-color: rgb(160, 160, 160);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.perfil{
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.add{
+    margin-top: 80px;
+    width: 55px;
+    cursor: pointer;
+    /* display: none; */
+}
+
+.voltar{
+    width: 60px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:1135px) {
+
+    .dataIncFiltro{
+        width: 40%;
+        margin-right: 0;
+        transition: 0.5s;
+    }
+    
+    .dataFimFiltro{
+        width: 60%;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width:900px) {
+
+    .dataIncFiltro{
+        width: 40%;
+        margin-right: 10px;
+        transition: 0.5s;
+    }
+    
+    .dataFimFiltro{
+        width: 60%;
+        transition: 0.5s;
+    }
+}
+
+@media only screen and (max-width:700px) {
+
+    .pageCompartilhar{
+        display: grid;
+    }
+
+    .sectionConteudo{
+        width: 100%;
+    }
+
+    .imgConteudo{
+        margin-top: 25px;
+        transition: 0.5s;
+    }
+
+    .sectionFiltro{
+        width: 95%;
+        place-self: center;
+        border-top: solid #2596be;
+        border-left: 0;
+    }
+
+    .dataIncFiltro input{
+        width: 80%;
+    }
+    
+    .dataFimFiltro input{
+        width: 80%;
+    }
+}

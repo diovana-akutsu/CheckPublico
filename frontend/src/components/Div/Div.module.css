@@ -1,0 +1,43 @@
+.divPrimary{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: 3px solid #2596BE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: 1.5;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2;
+    transition: 0.2s all;
+    width: auto;
+    display: inline-block;
+}
+
+.divCinza{
+    background-color: #F1F1F1;
+    border: 3px solid #2596BE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2;
+    transition: 0.2s all;
+    display: inline-block;
+}
+
+.divComentario{
+    background-color: #F1F1F1;
+    border: 3px solid #2596BE;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 600;
+    padding: 0.5rem 0.5rem;
+    letter-spacing: 0.2;
+    transition: 0.2s all;
+    width: auto;
+}

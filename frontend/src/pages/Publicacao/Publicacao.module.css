@@ -1,0 +1,150 @@
+.secao{
+    height: auto;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.1); 
+    min-height: 100vh; 
+    /* height: 100vh; */
+}
+
+.spanData{
+    width: 245px;
+    height: 33px;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.filter{
+    width: 70%;
+    margin:20px 367px 0 20px;
+}
+
+.filter div{
+    margin-top: 1rem;
+}
+
+.vertical{
+    display: table;
+    background-color: black;
+    width: 0.25rem;
+    margin-left: 1.5rem;
+    border-radius: 2px;
+}
+
+.aside{
+    display: block;
+    position: fixed;
+    right: 0;
+    min-width: 400px;
+    height: 100%;
+    background: linear-gradient(to top, #1ED6D6 , #0A5773  );   
+    border-left: solid black;
+}
+
+.horizontal{
+    background-color: black;
+    height: 0.15rem;
+    width: 90%;
+    margin-left: 1.5rem;
+}
+
+.linksPublicacao{
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+}
+
+.linksPublicacao > *:not(:first-child){
+    margin-left: 3rem;
+}
+
+.headerPerfil{
+    display: flex;
+    align-items: center;
+}
+
+.imgPerfil{
+    padding: 1rem;
+    height: 5rem;
+}
+
+.infoPublic{
+    margin: 1rem 1rem 0 1.5rem;
+}
+
+.infoPublic > *:not(:first-child){
+    margin-left: 1rem;
+}
+
+.articleComentarios{
+    overflow-y: scroll;
+    height: 21rem;
+}
+
+.footerComents{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    margin: 1rem 0 0 0.3rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerComents > *:not(:first-child){
+    margin-left: 0.2rem;
+}
+
+.divComentPublic{
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.divComentPublic > *:not(:first-child){
+    margin-left: 0.2rem;
+}
+
+.inputComent{
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 1.8rem;
+    border-radius: 0.3rem;
+}
+
+.voltar:nth-child(2){
+    width: 60px;
+    position: fixed;
+    right: 25px;
+    top: 30px;
+    transition: 0.5s;
+}
+
+.voltar:nth-child(1){
+    width: 60px;
+    position: fixed;
+    right: 25px;
+    top: 30px;
+    transition: 0.5s;
+    display: none;
+}   
+
+.comentarioVazio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 23%;
+}
+
+.imgComentarioVazio{
+    width: 70px;
+    height: 70px;
+    margin-top: 2%;
+}
+
+.liked{
+    background: url('../../assets/images/LikeBranco.png') no-repeat;
+}  

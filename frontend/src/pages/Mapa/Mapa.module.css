@@ -1,0 +1,30 @@
+#mapid { height: 180px; }
+
+.leftSide{
+    background-color: aliceblue;
+    width: 350px;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.escondido{
+    display: none;
+}
+
+.estiloLateral{
+    margin-left: 110vh;
+}
+
+.sectionMapa{
+    
+}
+
+.divMapa{
+    width: 50vh;
+    height: 50vh;
+    position: fixed;
+}
+
+.mapa{
+    width: 100vh;
+}

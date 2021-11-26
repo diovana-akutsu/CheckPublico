@@ -1,0 +1,14 @@
+00OBRAS25-05-2021 09:54:0510
+01020Hospital Sem Wallpaper        Hospital            01425986Rua dos alemãos               123  Vila Francesa     São Paulo           SP-23,5526-46,6591
+01030Escola Teste final            Escola              01423990Rua da Disney                 154  Vila Francesa     São Paulo           SP-23,5526-46,6591
+01040Hospital da Disney            Hospital            01425990Rua da Disney                 123  Vila Francesa     São Paulo           SP-23,5526-46,6591
+01050Casa da Dio                   Patrimonio historio 0436600104366001                      1680 Jardim Prudência  São Paulo           SP-23,5526-46,6591
+01060Casa da Ygor                  Patrimonio historio 0416804004168040                      620  Vila Moraes       São Paulo           SP    null    null
+01070TESTE ULHAAA                  Patrimonio historio 0416804104168041                      620  Vila Moraes       São Paulo           SP    null    null
+01080TESTE ULHAAA                  Patrimonio historio 0425101004251010                      369  Vila Moraes       São Paulo           SP    null    null
+01090Metro da linha Laranja        Patrimonio historio 0423101004231010                      168  Vila Moraes       São Paulo           SP    null    null
+01100Escola da via anchieta        escola              09520310Rua General Enrico Caviglia   168  Vila Moraes       São Paulo           SP    null    null
+01110Saudades dela                 Patrimonio historio 04252010Rua Saudades dela             1301 Vila Moraes       São Paulo           SP    null    null
+01120                                                  04251-010Rua Santo Antônio de Categero      Vila Natália      São Paulo           SP    null    null
+01130teste Rafael dos Santos                           04251-010Rua Santo Antônio de Categero 125486Vila Natália      São Paulo           SP    null    null
+0200013

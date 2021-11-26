@@ -1,0 +1,56 @@
+.corpoPostagem{
+    background-color: #0A5773;
+    width: 30rem;
+    height: 29rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.headerPostagem{
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+}
+
+.infoPost{
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    width: 95%;
+}
+
+.infoPost span{
+    color: #FFFFFF;
+    font-weight: bold;
+    align-self: start;
+}
+
+.pontos{
+    /* margin-left: 10rem; */
+    width: 95%;
+}
+
+.buttonsPost{
+    margin-top: 0.8rem;
+}
+
+.buttonsPost > *:not(:first-child){
+    margin-left: 1rem;
+}
+
+.imgObra{
+    height: 69%;
+}
+
+@media only screen and (max-width:500px){
+
+    .corpoPostagem{
+        width: 95%;
+    }
+
+    .infoPost{
+        display: flex;
+    }
+    
+}

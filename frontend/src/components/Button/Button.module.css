@@ -1,0 +1,48 @@
+.button{
+    
+}
+
+.buttonPrimary{
+    background-color: #2380a1;
+    color: #ffffff;
+    outline:none;
+
+    height: 65px;
+    width: 145px;
+    border: none;
+    outline-style: none;
+    font-weight: 800;
+
+    border-radius: 5%;
+}
+
+.buttonSecundary{
+    background-color: #ffffff;
+    color: #0A5773;
+    outline:none;
+
+    height: 65px;
+    width: 145px;
+    border: none;
+    outline-style: none;
+    font-weight: 800;
+    font-size: 1.3rem;
+
+    border-radius: 5%;
+}
+
+.buttonTransparente{
+    background-color: rgba(0, 0, 0, 0.0);
+    border: none;
+}
+
+.buttonRedondoAzul{
+    display: flex;
+    border-radius: 50%;
+    background-color: #2596BE;
+    height: 40px;
+    width: 40px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+}

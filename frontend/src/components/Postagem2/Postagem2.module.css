@@ -1,0 +1,32 @@
+.corpoPostagem{
+    background-color: #0A5773;
+    width: 30rem;
+    height: min-content;
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 1rem; */
+}
+
+.infoPost{
+    /* display: flex; */
+}
+
+.infoPost h1{
+    margin: 3px;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom: solid 1px oldlace;
+}
+
+.infoPost h2, h3{
+    color: #1dcaff;
+}
+
+.infoPost span:nth-child(2){
+    border-right: solid 1px #FFFFFF;
+    border-left: solid 1px #FFFFFF;
+}
+
+.buttonsPost > *:not(:first-child){
+    margin-left: 1rem;
+}

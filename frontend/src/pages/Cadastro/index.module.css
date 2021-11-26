@@ -1,0 +1,129 @@
+.container {
+  background: linear-gradient(107.54deg, #0a5773 0%, #2596be 100%) !important;
+}
+
+.divcontainer {
+  align-items: center;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  transition: 0.5s;
+}
+
+.form>*:not(:first-child) {
+  margin-top: 2rem;
+}
+
+.labelInput {
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 36px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  transition: 0.5s;
+}
+
+.label {
+  color: #ffffff;
+  display: inline;
+  margin-left: 1rem;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.socialLoginDescription {
+  color: #ffffff;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  height: auto;
+}
+
+.logo {
+  display: block;
+  height: 171px;
+  width: 484px;
+  margin: auto;
+}
+
+.linksCadastroRedes {
+  display: flex;
+}
+
+.linksCadastroRedes>*:not(:first-child) {
+  margin-left: 2rem;
+  text-align: center;
+  width: 3.1rem;
+}
+
+.linksCadastroRedes img {
+  margin-top: 5px;
+}
+
+.buttonCadastro {
+  margin: 0 0 20px 17rem;
+  transition: 0.5s;
+}
+
+.logoMobile{
+  display: none;
+}
+
+
+
+@media only screen and (max-width:1100px) {
+
+  .divcontainer {
+    width: 100%;
+    transition: 0.5s;
+  }
+
+  .buttonCadastro {
+    margin: 0 0 20px 14rem;
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (max-width:760px) {
+
+  .form {
+    width: 90%;
+    transition: 0.5s;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .heading {
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .buttonCadastro {
+    width: 300px;
+    margin: 100px 0 20px 0;
+    transition: 0.5s;
+  }
+
+  .logoMobile{
+    display: block;
+  }
+}
+
+@media only screen and (max-width:550px) {  
+
+  .buttonCadastro {
+    width: 200px;
+    margin-left: -100px  ;
+    transition: 0.5s;
+  }
+}
